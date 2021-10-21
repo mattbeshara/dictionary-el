@@ -544,8 +544,8 @@ by the choice value:
 	      (selected-window dictionary-selected-window))
 	  (kill-buffer (current-buffer))
 	  (when dictionary-restore-window-configuration
-            (set-window-configuration configuration))
-	  (select-window selected-window)))))
+            (set-window-configuration configuration)
+	    (select-window selected-window))))))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Helpful functions
