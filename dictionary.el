@@ -238,10 +238,7 @@ by the choice value:
     (progn
       
       (defface dictionary-word-definition-face
-	'((((type x))
-	   (:font "Sans Serif"))
-	  (t
-	   (:font "default")))
+	'()
 	"The face that is used for displaying the definition of the word."
 	:group 'dictionary)
 
